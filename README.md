@@ -2,8 +2,7 @@
 
 > **InnovHack 2025 Submission** > A smart, AI-powered platform connecting students to recover lost belongings efficiently.
 
-![Project Banner]![alt text](image.png)  
-*(Replace this link with a screenshot of your dashboard later)*
+![](images/dashboard.png)  
 
 ## 🚀 The Problem
 College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Existing solutions (WhatsApp groups, notice boards) are unorganized, spammy, and ineffective.
