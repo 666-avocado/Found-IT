@@ -2,7 +2,7 @@
 
 > **InnovHack 2025 Submission** > A smart, AI-powered platform connecting students to recover lost belongings efficiently.
 
-![Project Banner](https://via.placeholder.com/1000x300?text=FoundIT+Dashboard+Preview)  
+![Project Banner]![alt text](image.png)  
 *(Replace this link with a screenshot of your dashboard later)*
 
 ## 🚀 The Problem
