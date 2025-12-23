@@ -70,8 +70,9 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
 
 ## 📱 Screenshots
 **Found Upload**
-![](images/report%20lost.png)
+![](images/found%20report.png)
 **Lost Search**
+![](images/report%20lost.png)
 
 ## Contributors
 - Yuvan - Lead Developer
