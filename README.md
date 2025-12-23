@@ -1,4 +1,4 @@
-# 🕵️‍♂️ FoundIT - SASTRA University Lost & Found
+# 🕵️‍♂️ FoundIT - Campus Lost & Found
 
 > **InnovHack 2025 Submission** > A smart, AI-powered platform connecting students to recover lost belongings efficiently.
 
