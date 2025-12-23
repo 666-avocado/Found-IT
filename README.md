@@ -52,7 +52,7 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/666-avocado/Found-IT.git](https://github.com/666-avocado/Found-IT.git)
-   cd Found-IT```
+   cd Found-IT
 
 2. **Install Dependencies**
     ```bash
