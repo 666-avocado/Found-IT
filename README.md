@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🕵️‍♂️ FoundIT - SASTRA University Lost & Found
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **InnovHack 2025 Submission** > A smart, AI-powered platform connecting students to recover lost belongings efficiently.
 
-## Available Scripts
+![Project Banner](https://via.placeholder.com/1000x300?text=FoundIT+Dashboard+Preview)  
+*(Replace this link with a screenshot of your dashboard later)*
 
-In the project directory, you can run:
+## 🚀 The Problem
+College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Existing solutions (WhatsApp groups, notice boards) are unorganized, spammy, and ineffective.
 
-### `npm start`
+## 💡 The Solution: FoundIT
+**FoundIT** is a centralized web app restricted to SASTRA students. It uses **Google Gemini AI** to automatically tag found items and match them with lost reports, ensuring a hassle-free recovery process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🤖 1. AI-Powered "Found" Reporting
+- Upload a photo of a found item.
+- **Gemini AI** analyzes the image to extract details (e.g., "Blue", "Electronics", "OnePlus").
+- No manual typing required!
 
-### `npm test`
+### 🔍 2. Smart Search & Matching
+- Users describe what they lost (e.g., "I lost my black wallet").
+- The system performs a **semantic keyword match** against the database.
+- Results are filtered to show only high-confidence matches (>2 keywords).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📢 3. Campus Broadcast & Alerts
+- If an item isn't found immediately, users can **Broadcast a Lost Alert** to the main dashboard.
+- Real-time updates for the entire campus community.
 
-### `npm run build`
+### 🛡️ 4. Security Handover Protocol (Unique!)
+- To prevent students from hoarding found items, the app tracks inventory age.
+- If an item is unclaimed for **7 days**, the finder gets a **"Red Alert"** to drop it at the Main Guard Gate.
+- Status updates to "At Security" so the owner knows where to go.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔒 5. Verified Access
+- Restricted login to **@sastra.ac.in** and **@sastra.edu** domains only.
+- Ensures safety and accountability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+- **Frontend:** React.js, Tailwind CSS (via CDN)
+- **Backend/DB:** Firebase Firestore & Authentication
+- **AI Engine:** Google Gemini API (Multimodal Vision)
+- **Icons:** Lucide React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/666-avocado/Found-IT.git](https://github.com/666-avocado/Found-IT.git)
+   cd Found-IT```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install Dependencies**
+    ```bash
+    npm install```
 
-## Learn More
+3. **Configure Environment Variables**
+    - Rename .env.example to .env.
+    - Add your API keys (Firebase & Gemini).
+    ```Code snippet
+        REACT_APP_GEMINI_API_KEY=your_key_here
+        REACT_APP_FIREBASE_API_KEY=your_key_here
+    ```
+4. **Run the App**
+    ```bash
+    npm start```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📱 Screenshots
+**Found Upload**
+**Lost Search**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+- Yuvan - Lead Developer
+    
+**Built with ❤️ for InnovHack 2025**
+    
