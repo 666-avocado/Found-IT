@@ -33,7 +33,7 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
 - Status updates to "At Security" so the owner knows where to go.
 
 ### 🔒 5. Verified Access
-- Restricted login to **@sastra.ac.in** and **@sastra.edu** domains only.
+- Restricted login to college mail domains only.
 - Ensures safety and accountability.
 
 ---
@@ -56,7 +56,7 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
 
 2. **Install Dependencies**
     ```bash
-    npm install```
+    npm install
 
 3. **Configure Environment Variables**
     - Rename .env.example to .env.
@@ -64,10 +64,10 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
     ```Code snippet
         REACT_APP_GEMINI_API_KEY=your_key_here
         REACT_APP_FIREBASE_API_KEY=your_key_here
-    ```
+    
 4. **Run the App**
     ```bash
-    npm start```
+    npm start   
 
 ## 📱 Screenshots
 **Found Upload**
