@@ -151,11 +151,14 @@ const LostReport = ({ user, onCancel }) => {
                       <p className="text-sm text-slate-500 mt-1 flex items-center gap-2">
                         <Tag className="w-3 h-3" /> {match.category} • {match.color}
                       </p>
-                      <button onClick={() => alert(`Found by: ${match.foundBy}\nPhone: ${match.phoneNumber || 'N/A'}`)} className="mt-3 text-sm text-indigo-600 font-medium hover:text-indigo-700 flex items-center gap-1">
-                        <Phone className="w-4 h-4" /> Call Finder
-                      </button>
+                      <button 
+                        onClick={() => alert(`Found by: A Student (Anonymous)\nPhone: ${match.phoneNumber || 'Not provided'}`)}
+                        className="mt-3 text-sm text-indigo-600 font-medium hover:text-indigo-700 flex items-center gap-1"
+                    >
+                            <Phone className="w-4 h-4" /> Call Finder
+                        </button>
                     </div>
-                  </div>
+                  </div>   
                 ))}
               </div>
             </>
