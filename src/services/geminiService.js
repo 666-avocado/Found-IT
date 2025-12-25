@@ -8,7 +8,9 @@ export const analyzeLostItem = async (base64String, mimeType) => {
   // Clean base64 string for Gemini
   const base64Data = base64String.split(",")[1] || base64String;
   const finalMimeType = mimeType || "image/jpeg";
-  const prompt = `Return only a valid JSON object with: "title" (specific name), "category" (e.g. Electronics, Personal), "color". Do not include any other text or markdown.`;
+  const prompt = `Return a JSON object with: 
+  "title", "category", "color", "brand", 
+  "tags" (an array of 5 keywords like ["bottle", "silver", "milton", "metal", "water"])`;
 
   const result = await model.generateContent([
     { text: prompt },

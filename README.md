@@ -67,7 +67,7 @@ College campuses are chaotic. Students lose IDs, wallets, and gadgets daily. Exi
 4. **Run the App**
     ```bash
     npm start   
-
+3
 ## 📱 Screenshots
 **Found Upload**
 ![](images/found%20report.png)

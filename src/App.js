@@ -74,7 +74,7 @@ const Dashboard = ({ user, mobile, signOut, setView, overdueItems, handleHandove
     <div className="flex flex-col md:flex-row items-center justify-between gap-4">
       <div>
         <h1 className="text-3xl font-bold text-slate-900">Dashboard</h1>
-        <p className="text-slate-500 mt-1">Welcome, {user?.displayName?.split(' ')[0]} ({mobile})</p>
+        <p className="text-slate-500 mt-1">Welcome, {user?.displayName?.split(' ')[0]}</p>
       </div>
       <Button onClick={() => signOut(auth)} variant="secondary">
         <LogOut className="w-4 h-4" /> Sign Out
