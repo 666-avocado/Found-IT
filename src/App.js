@@ -246,13 +246,15 @@ function App() {
   useEffect(() => {
     return onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        if (currentUser.email.endsWith('@sastra.ac.in') || currentUser.email.endsWith('@sastra.edu')) {
+        /*if (currentUser.email.endsWith('@sastra.ac.in') || currentUser.email.endsWith('@sastra.edu')) {
           setUser(currentUser);
           if (view === 'login') setView('dashboard');
         } else {
-          showToast("Access Denied: Please use SASTRA ID", "error");
+          showToast("Access Denied: Please use SASTRA I D", "error");
           signOut(auth);
-        }
+        }*/
+        setUser(currentUser);
+        if (view === 'login') setView('dashboard');
       } else {
         setUser(null);
         setView('login');
