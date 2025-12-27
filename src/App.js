@@ -41,7 +41,7 @@ const LoginView = ({ mobile, setMobile, handleLogin }) => (
         </div>
       </div>
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-slate-900">FoundIt SASTRA</h1>
+        <h1 className="text-3xl font-bold text-slate-900">FoundIt</h1>
         <p className="text-slate-500">The smart lost & found portal for our campus.</p>
       </div>
       <Card className="p-8 mt-8 space-y-4">
@@ -60,7 +60,7 @@ const LoginView = ({ mobile, setMobile, handleLogin }) => (
           </div>
         </div>
         <Button onClick={handleLogin} className="w-full py-3">
-          <User className="w-5 h-5" /> Login with SASTRA ID
+          <User className="w-5 h-5" /> Login with Google
         </Button>
       </Card>
     </div>
