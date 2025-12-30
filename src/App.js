@@ -42,7 +42,7 @@ const LoginView = ({ mobile, setMobile, handleLogin }) => (
         </div>
       </div>
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-slate-900">FoundIt</h1>
+        <h1 className="text-3xl font-bold text-slate-900">FoundIT</h1>
         <p className="text-slate-500">The smart lost & found portal for our campus.</p>
       </div>
       <Card className="p-8 mt-8 space-y-4">
