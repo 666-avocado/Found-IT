@@ -17,6 +17,6 @@ const firebaseConfig = {
   const auth = getAuth(app);
   
   const provider = new GoogleAuthProvider();
-  provider.setCustomParameters({ hd: "sastra.ac.in" });
+  /*provider.setCustomParameters({ hd: "sastra.ac.in" });*/
   
   export { db, auth, provider, signInWithPopup };
